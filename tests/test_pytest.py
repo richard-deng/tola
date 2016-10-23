@@ -49,7 +49,7 @@ def test_mytest():
     ('1+3', 4),
     ('2*4', 8),
     # ('1 == 2', False),
-    ('1 == 3', False),
+    ('1 == 4', False),
 ])  # parametrize可以用装饰器的方式集成多组测试样例
 def test_eval(test_input, expected):
     assert eval(test_input) == expected
